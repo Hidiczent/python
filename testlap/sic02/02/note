@@ -1,0 +1,13 @@
+a ແມ່ນການເພິ່ມຄ່າເຂົ້າ ຫຍໍ້ມາຈາກ apend
+w+t 
+wb binary
+
+
+
+f=open('hello.txt','w')
+f.write('Hello world!') 
+f.write(' \nfrom sic sic campus')
+f.close()
+f=open('hello.txt','wb')
+f.write(0)
+f.close()
