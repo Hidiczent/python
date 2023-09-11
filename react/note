@@ -1,0 +1,59 @@
+Allow function เป็นรูปแบบก่รดขียนให้มีความกระซับมากขึน
+fullname=(fname,lname)=>fname+lname;
+ setAge=(age)=>"Age ="+age  
+
+
+console.log(fullname("Jimmy","sengdavong"));
+console.log(setAge(20));
+
+showData//
+const username="jimmy"
+const age=25
+const Address="laos"
+
+const customer={
+    username,
+    age,
+    Address,
+   showData(){
+        console.log(username);
+    }
+}
+console.showData()
+
+MutilineString use=> (`)
+const address=`Name:Jimmy 
+tel=02054732004 
+address laos`
+console.log(address);
+
+Interpolation(ສາມາດແຊກໂຕແປລົງໃນພື້ນທີstringໄດ້)
+let username="Nam"
+let tel="020 54732004"
+let city = "laos"
+
+const address=` Name: ${username}
+tel=${tel}
+address = ${city}`
+console.log(address);
+
+Spread Operatpr
+ໃຊ້ກະຈາຍຂໍ້ມູນໃນArray ອອກມາໃຊ້ໂດຍເຕິມເຄື່ອງໝາຍ...ທາງໜ້າໂຕແປ
+const newArr=[100,200,300]
+const data=[10,20,...newArr]
+console.log(data)
+
+
+sumtion=(...NumberArr)=>{    
+    let total=0
+    for (let Number of NumberArr  ) total +=Number
+    return total
+}
+console.log(sumtion(500,1000)); 
+console.log(sumtion(500,1000,800));
+console.log(sumtion(500,1000,800,500));
+console.log(sumtion(500,1000,3000));  
+
+
+// Destructuring (ການລະລາຍໂຄງສ້າງ)
+ຄືການກຳໜົດຄ່າທີ່ຢູ່ພາຍໃນArrayຫຼືopjectໃຫ້ກັບໂຕແປໂດຍໃຊ້ວິທີການຈັບຄູ່ຕົວແປກັບຄ່າໃນArray or Object ເຊ່ນ
